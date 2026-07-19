@@ -1,37 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 nav {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
 }
 
 ul {
-
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
 }
 
-li>a {
-    text-decoration: none;
-    color: #575757
+li > a {
+  text-decoration: none;
+  color: #575757;
 }
 
-.common-btn{
-
-    background-color: blue;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 20px;
-    border:none;
+.common-btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
 }
+
+header{
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+.paragraph{
+
+  color: #FFFFFF;
+font-weight: lighter;
+}
+
+
+.header-content{
+display: grid;
+gap: 20px;
+  text-align: center;
+}
+
+h1{
+color: #FFFFFF;
+  font-size: 45px;
+}
+
+.button-2{
+
+
+  width: 30%;
+  margin-left: 35%;
+}
+
+
+
