@@ -12,7 +12,7 @@ nav {
   padding: 18px 8%;
 }
 
-ul {
+.nav-items {
   display: flex;
   gap: 20px;
   list-style: none;
@@ -74,7 +74,7 @@ h1 {
   margin: 20px;
   padding: 20px;
 }
-section {
+.speaker-section {
   display: grid;
   gap: 10px;
   grid-template-columns: 50% 50%;
@@ -82,6 +82,7 @@ section {
 
 .speakers {
   margin: 10px;
+  border: 1px solid black;
   padding: 10px;
 }
 
@@ -94,4 +95,68 @@ section {
 
 .career {
   color: #575757;
+}
+
+.purchase {
+  display: flex;
+  justify-content: center;
+}
+
+.planning {
+  border: 1px solid black;
+
+  margin: 10px;
+  padding: 20px;
+  width: 25%;
+}
+
+.grey {
+  color: #888888;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.second-div {
+  background-color: black;
+}
+
+.second-price {
+  color: white;
+}
+
+.second-service li {
+  color: #ffffff;
+}
+
+.purchasing-button {
+  width: 95%;
+  margin: 5px 2px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.second-button {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.first-button {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.spot {
+  text-align: center;
+
+  display: grid;
+  margin: 50px;
+}
+
+.bolding-spot {
+  font-size: 50px;
 }
