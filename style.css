@@ -160,3 +160,24 @@ h1 {
 .bolding-spot {
   font-size: 50px;
 }
+
+
+.copyright{
+
+display: flex;
+justify-content: space-between;
+background-color: #0D1B2A;
+color:  #575757;
+margin: 15px 0px;
+padding: 30px;
+align-items: center;
+
+}
+
+
+.copy-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+}
